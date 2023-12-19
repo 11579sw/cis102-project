@@ -89,7 +89,7 @@ option_group = st.selectbox(
     NYC_neighbourGroup)
 
 # 显示选中的项
-st.header('you select this neighbor group:', option_group)
+st.write('you select this neighbor group:', option_group)
 # -------
 if option_group == 'Manhattan':
     option_anything=Manhattan_neighbour
